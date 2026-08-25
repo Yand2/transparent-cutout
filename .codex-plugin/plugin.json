@@ -1,0 +1,16 @@
+{
+  "name": "transparent-cutout",
+  "version": "0.2.0",
+  "description": "Create real-alpha transparent PNG cutouts with mandatory validation.",
+  "author": { "name": "Local developer" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Transparent Cutout",
+    "shortDescription": "Make verified real-alpha PNG cutouts.",
+    "longDescription": "Removes image backgrounds and rejects fake transparency, opaque checkerboards, clipped subjects, and non-RGBA outputs.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Remove the background from the attached image and return a verified real-alpha PNG."
+  }
+}
